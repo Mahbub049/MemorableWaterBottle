@@ -1,0 +1,11 @@
+.cart img{
+    width: 200px;
+    margin-right: 20px;
+}
+.cart{
+    /* display: grid;
+    grid-template-columns: repeat(6, 1fr); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
